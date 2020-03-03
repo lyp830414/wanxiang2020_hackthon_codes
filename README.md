@@ -10,3 +10,5 @@ wanxiang2020_hackthon_codes
 4. run 'python3 lyp_bios-boot-tutorial.py -a --iscontine' for all later round (due to you have the history data there).
 
 5. You need to use python3.  2.x is not supported here.
+
+6. This script is developped based on EOS 2.X with new features, and must based on OS with ubuntu 18.X LTS in x64 bits.
