@@ -1,0 +1,108 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-cc 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-cpp 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb487/fast"
+make[3]: Entering directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bb487.dir/build.make CMakeFiles/cmTC_bb487.dir/build
+make[4]: Entering directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb487.dir/CMakeCCompilerABI.c.obj
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-cc   -O3     -o CMakeFiles/cmTC_bb487.dir/CMakeCCompilerABI.c.obj   -c /home/lyp830414/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_bb487.wasm
+/home/lyp830414/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb487.dir/link.txt --verbose=1
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-ld  -v CMakeFiles/cmTC_bb487.dir/CMakeCCompilerABI.c.obj -o cmTC_bb487.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_bb487.dir/build.make:86: recipe for target 'cmTC_bb487.wasm' failed
+make[4]: *** [cmTC_bb487.wasm] Error 1
+make[4]: Leaving directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_bb487/fast' failed
+make[3]: *** [cmTC_bb487/fast] Error 2
+make[3]: Leaving directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_babbd/fast"
+make[3]: Entering directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_babbd.dir/build.make CMakeFiles/cmTC_babbd.dir/build
+make[4]: Entering directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_babbd.dir/feature_tests.c.obj
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-cc   -O3     -std=c11 -o CMakeFiles/cmTC_babbd.dir/feature_tests.c.obj   -c /home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/feature_tests.c
+eosio-cc: Unknown command line argument '-std=c11'.  Try: '/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w=c11'?
+CMakeFiles/cmTC_babbd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_babbd.dir/feature_tests.c.obj' failed
+make[4]: *** [CMakeFiles/cmTC_babbd.dir/feature_tests.c.obj] Error 1
+make[4]: Leaving directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_babbd/fast' failed
+make[3]: *** [cmTC_babbd/fast] Error 2
+make[3]: Leaving directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09065/fast"
+make[3]: Entering directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_09065.dir/build.make CMakeFiles/cmTC_09065.dir/build
+make[4]: Entering directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09065.dir/CMakeCXXCompilerABI.cpp.obj
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-cpp    -O3     -o CMakeFiles/cmTC_09065.dir/CMakeCXXCompilerABI.cpp.obj -c /home/lyp830414/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_09065.wasm
+/home/lyp830414/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09065.dir/link.txt --verbose=1
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-ld  -v CMakeFiles/cmTC_09065.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_09065.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_09065.dir/build.make:86: recipe for target 'cmTC_09065.wasm' failed
+make[4]: *** [cmTC_09065.wasm] Error 1
+make[4]: Leaving directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_09065/fast' failed
+make[3]: *** [cmTC_09065/fast] Error 2
+make[3]: Leaving directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX [-std=c++2a] compiler features failed to compile with the following output:
+Change Dir: /home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4431d/fast"
+make[3]: Entering directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4431d.dir/build.make CMakeFiles/cmTC_4431d.dir/build
+make[4]: Entering directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4431d.dir/feature_tests.cxx.obj
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-cpp    -O3     -std=c++2a -o CMakeFiles/cmTC_4431d.dir/feature_tests.cxx.obj -c /home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4431d.wasm
+/home/lyp830414/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4431d.dir/link.txt --verbose=1
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-ld   CMakeFiles/cmTC_4431d.dir/feature_tests.cxx.obj -o cmTC_4431d.wasm 
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+CMakeFiles/cmTC_4431d.dir/build.make:86: recipe for target 'cmTC_4431d.wasm' failed
+make[4]: *** [cmTC_4431d.wasm] Error 255
+make[4]: Leaving directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4431d/fast' failed
+make[3]: *** [cmTC_4431d/fast] Error 2
+make[3]: Leaving directory '/home/lyp830414/eosio.contracts/build/contracts/CMakeFiles/CMakeTmp'
+
+
+

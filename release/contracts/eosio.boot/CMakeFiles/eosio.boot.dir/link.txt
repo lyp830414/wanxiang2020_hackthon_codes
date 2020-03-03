@@ -1,0 +1,1 @@
+/home/lyp830414/EOSIO/eosio.cdt/build/bin/eosio-ld  CMakeFiles/eosio.boot.dir/src/eosio.boot.cpp.obj -o eosio.boot.wasm 
